@@ -245,6 +245,14 @@ footer {
         transform: translateX(-100%);
     }
 }
+.patro{
+    color: #fff;
+    margin-left: 41%;
+    margin-top: 5%;
+    font-size: 40px;
+    z-index: 1;
+    position: relative;
+}
 
 .logos {
     overflow: hidden;

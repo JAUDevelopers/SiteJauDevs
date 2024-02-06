@@ -13,7 +13,7 @@
 
 body {
     background-color: #000;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .container {
@@ -121,8 +121,8 @@ h1 {
     position: relative;
     width: 100%;
     height: 100vh;
-
 }
+
 
 .bolhas {
     position: absolute;
@@ -232,4 +232,53 @@ footer {
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 40px 0;
+    white-space: nowrap;
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 120px;
+    margin: 0 40px;
+}
+
+.dentro{
+    display: flex;
+}
+
+.imaj {
+    margin: 20px;
+}
+
+.imaj img {
+    width: 60px;
+    height: 60px;
+}
+
+.imaj p {
+    margin-top: 2px;
+    text-align: center;
 }

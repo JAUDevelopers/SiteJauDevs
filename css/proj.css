@@ -175,3 +175,8 @@ footer {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+
+.gtranslate_wrapper img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Isso garante que a altura seja ajustada proporcionalmente */
+}

@@ -208,6 +208,15 @@ h1 {
     z-index: 1;
     position: relative;
 }
+.face {
+    width: auto;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 15px;
+    z-index: 1;
+    position: relative;
+}
+
 
 .tit{
     margin-top: 40px;

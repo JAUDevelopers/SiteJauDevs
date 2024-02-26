@@ -156,7 +156,7 @@ h1 {
     }
 
     100% {
-        transform: translateY(100vh) scale(1);
+        transform: translateY(auto) scale(1);
     }
 }
 
@@ -234,10 +234,6 @@ a{
     position: relative;
 }
 
-/* *{
-    border: red solid 1px;
-} */
-
 .soft {
     margin-top: -10%;
     margin: 40px;
@@ -278,3 +274,40 @@ footer {
     width: 30px; /* Ajuste o tamanho conforme necessário */
     height: auto; /* Isso garante que a altura seja ajustada proporcionalmente */
 }
+
+@media (max-width: 768px) {
+    header {
+        width: 110%;
+    }
+  
+    /* html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .box {
+        width: 120px;
+        height: 120px;
+        margin: 40px auto; 
+        background-color: #212121;
+        border: 1px solid #212121;
+        border-radius: 50%;
+        display: block; 
+        text-align: center; 
+    }
+
+    .container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        margin-top: 5%;
+    } */
+    
+       
+  
+  }

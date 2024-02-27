@@ -64,17 +64,32 @@ class TextScramble {
 	'Somos a JAU Developers',
 	'Seja bem-vindo(a) !',
 	':)'
-  ]
+  ];
   
-  const el = document.querySelector('.text')
-  const fx = new TextScramble(el)
+  const el = document.querySelector('.text');
+  const fx = new TextScramble(el);
   
-  let counter = 0
+  let counter = 0;
   const next = () => {
-	fx.setText(phrases[counter]).then(() => {
-	  setTimeout(next, 1800)
-	})
-	counter = (counter + 1) % phrases.length
-  }
+	let animationSpeed = 1800; // Velocidade padrão
+	let horizontalPosition = ''; // Posição horizontal padrão
   
-  next()
+	// Verifica se a largura da tela é menor que 768px
+	if (window.innerWidth < 768) {
+	  animationSpeed = 3000; // Define uma velocidade mais lenta
+	  horizontalPosition = 'center';
+	}
+  
+	// Configuração do estilo para o elemento de texto
+	el.style.textAlign = horizontalPosition;
+  
+	// Configura a velocidade e texto atual
+	fx.setText(phrases[counter]).then(() => {
+	  setTimeout(next, animationSpeed); // Usa a velocidade determinada
+	});
+  
+	// Atualiza o índice para o próximo texto
+	counter = (counter + 1) % phrases.length;
+  };
+  
+  next();

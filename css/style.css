@@ -144,7 +144,7 @@ h1 {
 
 @keyframes animar {
     0% {
-        transform: translateY(-130vh) scale(0);
+        transform: translateY(-200vh) scale(0);
     }
 
     100% {

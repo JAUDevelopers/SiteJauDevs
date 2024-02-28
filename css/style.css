@@ -144,7 +144,7 @@ h1 {
 
 @keyframes animar {
     0% {
-        transform: translateY(-200vh) scale(0);
+        transform: translateY(-130vh) scale(0);
     }
 
     100% {
@@ -318,6 +318,16 @@ footer {
     
     .patro{ 
         margin-left: 22%;
+    }
+
+    @keyframes animar {
+        0% {
+            transform: translateY(-200vh) scale(0);
+        }
+    
+        100% {
+            transform: translateY(auto) scale(1);
+        }
     }
 }
     

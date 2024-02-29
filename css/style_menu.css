@@ -97,9 +97,6 @@ li:focus {
     margin-left: 20%;
   }
 }
-.logo{
-  
-}
 
 .nav-list.active {
   transform: translateX(0);

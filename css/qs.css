@@ -44,7 +44,7 @@ html, body {
 
 @keyframes animar {
   0% {
-    transform: translateY(-200vh) scale(0);
+    transform: translateY(-300vh) scale(0);
   }
 
   100% {

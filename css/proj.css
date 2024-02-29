@@ -9,9 +9,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  
-  html, body {
+}
+
+html,
+body {
     background-color: #000;
     width: 100%;
     height: 100%;
@@ -19,7 +20,7 @@
     padding: 0;
     overflow-x: hidden;
     min-width: 435px;
-  }
+}
 
 .container {
     /* height: 100%; */
@@ -66,9 +67,10 @@ img {
     position: relative;
 }
 
-.img1{
+.img1 {
     width: 30%;
 }
+
 h1 {
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -163,6 +165,7 @@ h1 {
     margin: 0 4px;
     border-radius: 50%;
 }
+
 .redes {
     color: #fff;
     width: 100%;
@@ -174,14 +177,17 @@ h1 {
     position: relative;
     margin-top: 10%;
 }
-.ima{
+
+.ima {
     margin-top: 4%;
 }
-#pri{
+
+#pri {
     height: 350px;
     width: 650px;
     margin-left: -5%;
 }
+
 footer {
     margin-top: 18%;
     width: 100%;
@@ -192,8 +198,10 @@ footer {
 }
 
 .gtranslate_wrapper img {
-    width: 30px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Isso garante que a altura seja ajustada proporcionalmente */
+    width: 30px;
+    /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    /* Isso garante que a altura seja ajustada proporcionalmente */
 }
 
 @media (max-width: 768px) {
@@ -201,7 +209,8 @@ footer {
         width: 110%;
     }
 
-    html, body {
+    html,
+    body {
         width: 100%;
         height: 100%;
         margin: 0;

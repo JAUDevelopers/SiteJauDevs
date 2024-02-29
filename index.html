@@ -1,9 +1,13 @@
+<?php
+include("./view/menu.php");
+?>
 <!DOCTYPE html>
 <html lang="PT-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=], initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_menu.css"/>
     <link rel="shortcut icon" type="imagex/png" href="img/logo.png" />
     <title>JAU Developers | Tela Inicial</title>
   </head>
@@ -26,68 +30,20 @@
       defer
     ></script>
     <header>
-      <nav class="nav-bar">
-        <div class="container-logo">
-          <div class="logo-img">
-            <img src="img/jau.png" alt="" />
-          </div>
-          <div class="developer">
-            <h1>developers</h1>
-          </div>
+      <nav>
+        <a href="index.html"><img class="logo" src="img/logo sem fundo.png" alt=""></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-        <div class="nav-list">
-          <ul>
-            <li class="nav-item">
-              <a class="nav-link" id="que" href="quemsomos.html">Quem Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projetos.html">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contatos.html">Contatos</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="mobile-menu-icon">
-          <button>
-            <img class="icon" src="img/icons8-menu-quadrado-2-50.png" alt="" />
-          </button>
-        </div>
-      </nav>
-
-      <div class="mobile-menu">
-        <ul>
-          <li class="nav-item">
-            <a class="nav-link" id="que" href="quemsomos.html">Quem Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projetos.html">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contatos.html">Contatos</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- <div class="menu-hamburguer">
-        <button>
-          <img src="img/icons8-menu-quadrado-2-50.png" alt="Menu" />
-        </button>
-      </div>
-      <div class="mobile-menu">
-        <li><a href="quemsomos.html">Quem Somos</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="contatos.html">Contatos</a></li>
-      </div>
-   
-      <div class="menu">
-        <ul>
-          <li><a href="quemsomos.html">Quem Somos</a></li>
+        <ul class="nav-list">
+          <li><a href="quemsomos.html">Quem somos</a></li>
           <li><a href="projetos.html">Projetos</a></li>
           <li><a href="contatos.html">Contatos</a></li>
         </ul>
-      </div> -->
+        
+      </nav>
     </header>
 
     <div class="container">
@@ -263,5 +219,6 @@
       new window.VLibras.Widget("https://vlibras.gov.br/app");
     </script>
   </body>
+  <script src="js/mobile-navbar.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 </html>

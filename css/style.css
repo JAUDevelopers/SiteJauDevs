@@ -311,34 +311,6 @@ footer {
         margin-left: 18%;
     }
 
-    .menu-hamburguer {
-        display: none;
-        /* Inicialmente oculto em telas maiores */
-        cursor: pointer;
-    }
-
-    .linha {
-        width: 30px;
-        height: 3px;
-        background-color: #fff;
-        margin: 6px 0;
-    }
-
-    .menu {
-        display: none;
-        /* Inicialmente oculto */
-    }
-
-    .menu.ativo {
-        display: block;
-        /* Exibido quando o menu hamburguer é clicado */
-    }
-
-
-}
-
-
-
-@media screen and (max-width: 730px) {
+   
 
 }

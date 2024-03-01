@@ -49,7 +49,6 @@ html, body {
 header {
     width: 100%;
     background-color: #000;
-    display: flex !important;
     justify-content: space-between;
     padding: 20px 0;
     align-items: center;

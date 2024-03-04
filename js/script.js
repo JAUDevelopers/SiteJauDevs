@@ -72,7 +72,7 @@ class TextScramble {
   let counter = 0;
   const next = () => {
 	let animationSpeed = 1800; // Velocidade padrão
-	let horizontalPosition = ''; // Posição horizontal padrão
+	let horizontalPosition = 'center'; // Posição horizontal padrão
   
 	// Verifica se a largura da tela é menor que 768px
 	if (window.innerWidth < 768) {

@@ -215,7 +215,7 @@ h1 {
   text-align: center;
   width: 30% !important;
   height: auto;
-  max-height: 470px;
+  min-height: 470px;
   min-width: 400px;
   text-decoration: none;
   transition: all 0.3s ease;

@@ -289,4 +289,136 @@ footer {
   height: auto; 
 }
 
- 
+/* Estilos gerais */
+#navbar {
+  background-color: #333;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.home-link {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar-logo {
+  font-weight: bold;
+}
+
+#navbar-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+.navbar-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Estilos gerais */
+#navbar {
+  background-color: #000000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+#navbar-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+.navbar-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .navbar-item {
+    margin: 10px 0;
+  }
+
+  .responsive .navbar-links {
+    display: flex;
+  }
+}
+
+#mission{
+  color: #fff;
+}
+#vision{
+  color: #fff;
+}
+#value{
+  color: #fff;
+}
+
+
+

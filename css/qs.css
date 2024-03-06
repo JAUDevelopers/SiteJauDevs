@@ -289,9 +289,8 @@ footer {
   height: auto; 
 }
 
-/* Estilos gerais */
 #navbar {
-  background-color: #333;
+  background-color: #000000;
 }
 
 .navbar-container {
@@ -340,11 +339,19 @@ footer {
   color: white;
   text-decoration: none;
 }
+.content {
+  display: none;
+}
+
+.active {
+  display: block;
+}
 
 
 /* Estilos gerais */
-#navbar {
+/* #navbar {
   background-color: #000000;
+  z-index: 1;
 }
 
 .navbar-container {
@@ -352,6 +359,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   padding: 10px;
+  z-index: 1;
 }
 
 #navbar-toggle {
@@ -388,7 +396,15 @@ footer {
 
 .active {
   display: block;
+} */
+
+/* Estilos para as li dentro do header#navbar */
+header#navbar .navbar-links .navbar-item:hover {
+  border-bottom: #65B741 solid 2px;
 }
+
+
+
 
 /* Estilos responsivos */
 @media screen and (max-width: 768px) {

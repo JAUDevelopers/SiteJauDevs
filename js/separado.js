@@ -29,15 +29,8 @@ function switchContent(targetId) {
   });
 
 
-// Verificar se a página foi recarregada
-var isReloaded = performance.navigation.type === 1;
 
-// Se a página foi recarregada, ajustar a posição de rolagem para o meio da página
-if (isReloaded) {
-  window.addEventListener('load', function() {
-    var windowHeight = window.innerHeight;
-    var scrollToPosition = windowHeight / 2;
-    window.scrollTo(0, scrollToPosition);
-  });
-}
+
+
+
 

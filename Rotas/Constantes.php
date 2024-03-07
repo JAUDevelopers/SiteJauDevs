@@ -1,6 +1,6 @@
 <?php
 if(!defined('HOME')){
-	define('HOME', '/SiteTesteRotas/');
+	define('HOME', '/SiteJauDevs/');
 }
 	
 ?>

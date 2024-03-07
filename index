@@ -35,9 +35,9 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="quemsomos.html">Quem somos</a></li>
-          <li><a href="projetos.html">Projetos</a></li>
-          <li><a href="contatos.html">Contatos</a></li>
+          <li><a href="quemsomos">Quem somos</a></li>
+          <li><a href="projetos">Projetos</a></li>
+          <li><a href="contatos">Contatos</a></li>
         </ul>
         
       </nav>

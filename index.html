@@ -8,15 +8,10 @@
     <link rel="shortcut icon" type="imagex/png" href="img/logo.png" />
     <title>JAU Developers | Tela Inicial</title>
     <script>
-      // if (location.pathname.endsWith('.html')) {
-      //     var newURL = location.pathname.replace('.html', '');
-      //     window.history.replaceState({}, document.title, newURL);
-      // }
       url = new URL(window.location.href);
-      url.pathname = url.pathname.replace(/\.html$/, '');
+      url.pathname = url.pathname.replace('.html', '');
       window.history.pushState('object or string', 'Title', url)
       // window.location = document.URL.replace('.html','');
-
   </script>
   </head>
 

@@ -270,7 +270,21 @@ footer {
     transition: transform 0.3s ease;
 }
 
+
 .gtranslate_wrapper img {
     width: 30px; /* Ajuste o tamanho conforme necessário */
     height: auto; /* Isso garante que a altura seja ajustada proporcionalmente */
 }
+
+@media (max-width: 780px){
+    .redes {
+      width: 90%;
+    }
+    .container{
+      width: 90%;
+    }
+    footer {
+        width: 60% !important;
+        margin-left: 20%;
+    }
+  }

@@ -177,7 +177,7 @@ h1 {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
-  width: 70%;
+  width: 90%;
   /* Defina a largura desejada para a div */
   margin: 0 80px;
   /* Isso centraliza a div na horizontal */
@@ -347,62 +347,14 @@ footer {
   color: #fff;
   text-align: center;
   justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
 }
 
 .active {
   display: block;
 }
 
-
-/* Estilos gerais */
-/* #navbar {
-  background-color: #000000;
-  z-index: 1;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px;
-  z-index: 1;
-}
-
-#navbar-toggle {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  background-color: white;
-  margin: 4px 0;
-}
-
-.navbar-links {
-  list-style-type: none;
-  padding: 0;
-}
-
-.navbar-item {
-  margin-right: 20px;
-}
-
-.navbar-link {
-  color: white;
-  text-decoration: none;
-}
-
-.content {
-  display: none;
-}
-
-.active {
-  display: block;
-} */
 
 /* Estilos para as li dentro do header#navbar */
 header#navbar .navbar-links .navbar-item:hover {
@@ -413,11 +365,12 @@ header#navbar .navbar-links .navbar-item:hover {
 
 
 /* Estilos responsivos */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
  
 
   .navbar-links {
     flex-direction: column;
+   
   }
 
   .navbar-item {
@@ -434,5 +387,20 @@ header#navbar .navbar-links .navbar-item:hover {
   .content {
     width: 70%;
     margin-left: 12%;
+  }
+
+}
+
+@media (max-width: 780px){
+  footer {
+      width: 60% !important;
+      margin-left: 20%;
+  }
+  .somos {
+    margin: 0 50px;
+    width: 80%;
+  }
+  #navbar{
+    margin-left: 6%;
   }
 }

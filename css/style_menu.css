@@ -27,7 +27,6 @@ nav {
   height: 8vh;
 }
 
-
 .nav-list {
   list-style: none;
   display: flex;
@@ -125,4 +124,14 @@ li:focus {
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@media (max-width: 780px){
+  nav {
+    width: 95%;
+  }
+  header{
+    width: 95%;
+}
+
 }

@@ -313,4 +313,10 @@ h3 {
     
 }
 
+@media (max-width: 780px){
+    footer {
+        width: 60% !important;
+        margin-left: 20%;
+    }
+  }
   

@@ -6,6 +6,11 @@
     <link rel="stylesheet" type="text/css" href="css/foto_proj.css" />
     <link rel="shortcut icon" type="imagex/png" href="img/logo.png" />
     <title>Projetos | Jau Developers</title>
+    <script>
+      url = new URL(window.location.href);
+      url.pathname = url.pathname.replace('.html', '');
+      window.history.pushState('object or string', 'Title', url);
+  </script>
   </head>
   <body>
     <h1>The Skyline Records</h1>

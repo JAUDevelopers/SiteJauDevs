@@ -8,6 +8,11 @@
     <link rel="shortcut icon" type="imagex/png" href="img/logo.png" />
 
     <title>JAU Developers | Quem Somos</title>
+    <script>
+      url = new URL(window.location.href);
+      url.pathname = url.pathname.replace('.html', '');
+      window.history.pushState('object or string', 'Title', url);
+  </script>
   </head>
 
   <body>

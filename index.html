@@ -1,6 +1,3 @@
-<?php
-include("./view/menu.php");
-?>
 <!DOCTYPE html>
 <html lang="PT-BR">
   <head>
@@ -10,6 +7,11 @@ include("./view/menu.php");
     <link rel="stylesheet" href="css/style_menu.css"/>
     <link rel="shortcut icon" type="imagex/png" href="img/logo.png" />
     <title>JAU Developers | Tela Inicial</title>
+    <script>
+      url = new URL(window.location.href);
+      url.pathname = url.pathname.replace('.html', '');
+      window.history.pushState('object or string', 'Title', url);
+  </script>
   </head>
 
   <body>
@@ -31,7 +33,7 @@ include("./view/menu.php");
     ></script>
     <header>
       <nav>
-        <a href="index.html"><img class="logo" src="img/logo sem fundo.png" alt=""></a>
+        <a href="index.php"><img class="logo" src="img/logo sem fundo.png" alt=""></a>
         <div class="mobile-menu">
           <div class="line1"></div>
           <div class="line2"></div>

@@ -447,6 +447,11 @@ ul.navbar-links li.selected {
     margin: 0 50px;
     width: 80%;
   }
+
+  .navbar-container {
+    padding: 4px 14px;
+    width: 110%;
+  }
   /* #navbar{
     margin-left: 6%;
   } */

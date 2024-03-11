@@ -68,10 +68,10 @@
         </button>
         <div id="navbar-menu" aria-labelledby="navbar-toggle">
           <ul class="navbar-links">
-            <li class="navbar-item"><a href="#mission" class="navbar-link">Missão</a></li>
-            <li class="navbar-item"><a href="#vision" class="navbar-link">Visão</a></li>
-            <li class="navbar-item"><a href="#value" class="navbar-link">Valor</a></li>
-          </ul>
+            <li class="selected" onclick="selectMenuItem(this)"><a href="#mission" class="navbar-link">Missão</a></li>
+            <li onclick="selectMenuItem(this)"><a href="#vision" class="navbar-link">Visão</a></li>
+            <li onclick="selectMenuItem(this)"><a href="#value" class="navbar-link">Valor</a></li>
+        </ul>
         </div>
       </nav>
       <div id="mission" class="content active">Desenvolver soluções de sites personalizadas, ágeis e de qualidade, que atendam às necessidades dos nossos clientes, gerando valor e confiança</div>

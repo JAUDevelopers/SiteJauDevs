@@ -355,13 +355,22 @@ footer {
   display: block;
 }
 
+ ul.navbar-links {
+  list-style: none;
+  padding: 0;
+}
 
-/* Estilos para as li dentro do header#navbar */
-header#navbar .navbar-links .navbar-item:hover {
-  /* border-bottom: #65B741 solid 2px; */
-    font-weight: 700;
+ul.navbar-links li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer; /* Adicione isso para mostrar o cursor de clique */
+}
+
+/*risco verde  */
+ul.navbar-links li.selected {
+  border-bottom: 2px solid #65B741;
+  font-weight: 700;
     background-color: transparent;
-    border-bottom: solid 2px #65B741;
 }
 
 

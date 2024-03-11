@@ -29,6 +29,13 @@ function switchContent(targetId) {
   });
 
 
+  function selectMenuItem(item) {
+    // Remove a classe 'selected' de todos os itens
+    document.querySelectorAll('.navbar-links li').forEach(li => li.classList.remove('selected'));
+    // Adiciona a classe 'selected' apenas ao item clicado
+    item.classList.add('selected');
+}
+
 
 
 

@@ -10,9 +10,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-nav{
+/* nav{
     margin-top: 20px;
-}
+} */
 html, body {
     background-color: #000;
     width: 100%;
@@ -20,7 +20,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    min-width: 435px;
+    /* min-width: 435px; */
   }
 
   li{
@@ -52,14 +52,18 @@ html, body {
 
 }
 
-
-/* *{
-    border: #ff0000 1px solid;
-} */
 .dud {
     color: #fff;
     z-index: 1;
     position: relative;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
 }
 
 .container-logo {
@@ -245,6 +249,7 @@ footer {
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    z-index: 1;
 }
 
 @keyframes slide {
@@ -332,6 +337,7 @@ footer {
     footer {
         width: 60% !important;
         margin-left: 20%;
+        z-index: 1s;
     }
     .botao {
         width: 80%;

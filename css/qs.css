@@ -358,8 +358,12 @@ footer {
 
 /* Estilos para as li dentro do header#navbar */
 header#navbar .navbar-links .navbar-item:hover {
-  border-bottom: #65B741 solid 2px;
+  /* border-bottom: #65B741 solid 2px; */
+    font-weight: 700;
+    background-color: transparent;
+    border-bottom: solid 2px #65B741;
 }
+
 
 
 

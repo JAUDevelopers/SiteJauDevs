@@ -17,7 +17,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    min-width: 435px;
+    /* min-width: 435px; */
   }
 
 .container {
@@ -276,7 +276,7 @@ footer {
     height: auto; /* Isso garante que a altura seja ajustada proporcionalmente */
 }
 
-@media (max-width: 780px){
+/* @media (max-width: 780px){
     .redes {
       width: 90%;
     }
@@ -287,4 +287,4 @@ footer {
         width: 60% !important;
         margin-left: 20%;
     }
-  }
+  } */

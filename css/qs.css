@@ -17,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  min-width: 435px;
+  /* min-width: 435px; */
 }
 
 .container-bolhas {
@@ -177,7 +177,7 @@ h1 {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 30px;
-  width: 90%;
+  /* width: 90%; */
   /* Defina a largura desejada para a div */
   margin: 0 80px;
   /* Isso centraliza a div na horizontal */
@@ -392,15 +392,15 @@ header#navbar .navbar-links .navbar-item:hover {
 }
 
 @media (max-width: 780px){
-  footer {
+  /* footer {
       width: 60% !important;
       margin-left: 20%;
-  }
+  } */
   .somos {
     margin: 0 50px;
     width: 80%;
   }
-  #navbar{
+  /* #navbar{
     margin-left: 6%;
-  }
+  } */
 }

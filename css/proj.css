@@ -151,7 +151,7 @@ h1 {
 
 @keyframes animar {
     0% {
-        transform: translateY(-130vh) scale(0);
+        transform: translateY(-150vh) scale(0);
     }
 
     100% {
@@ -195,6 +195,8 @@ footer {
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    position: relative;
 }
 
 .gtranslate_wrapper img {

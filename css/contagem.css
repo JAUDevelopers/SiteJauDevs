@@ -260,6 +260,8 @@ footer {
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    position: relative;
 }
 
 .box:hover,

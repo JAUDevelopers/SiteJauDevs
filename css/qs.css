@@ -160,11 +160,11 @@ h1 {
 }
 
 .tit img {
-  max-width: 40%;
+  max-width: 35%;
   /* Isso garante que a imagem não ultrapasse a largura da div */
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 3% auto;
   border-radius: 20px;
   align-items: center;
   z-index: 1;
@@ -176,7 +176,7 @@ h1 {
   /* border: red solid 1px; */
   color: #fff;
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   /* width: 90%; */
   /* Defina a largura desejada para a div */
   margin: 0 80px;
@@ -372,6 +372,40 @@ ul.navbar-links li.selected {
   font-weight: 700;
     background-color: transparent;
 }
+.navbar-link{
+  margin-top: 10%;
+  font-size: 30px;
+  z-index: 1;
+  position: relative;
+}
+#mission{
+  margin-top: 2%;
+  font-size: 30px;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#vision{
+  margin-top: 2%;
+  font-size: 30px;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#value{
+  margin-top: 2%;
+  font-size: 30px;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
 
 
 

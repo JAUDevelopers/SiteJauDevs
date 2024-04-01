@@ -182,9 +182,8 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     margin-top: 80px;
+    position: relative;
     z-index: 1;
-    /* Um valor maior do que o z-index das bolhas */
-    /* position: relative; */
 }
 
 
